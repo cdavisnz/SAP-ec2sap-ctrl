@@ -19,20 +19,20 @@ def cfg(section,option):
     if not os.path.isfile(cfg_file):
         msg = 'ERROR: Configuration file not found \'%s\'' % cfg_file
         print msg
-        exit(8)
+        exit(1)
     config = SafeConfigParser()
     config.read(cfg_file)
 
     if not config.has_section(section):
         msg = 'ERROR: Configuration section was not found \'%s\'' % section
         print msg
-        exit(8)
+        exit(1)
     else:
         try:
             config.get(section,option)
         except ConfigParser.NoOptionError, err:
             print 'ERROR:', err
-            exit(8)
+            exit(1)
         else:
             return config.get(section,option)
 
