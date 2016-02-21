@@ -1,0 +1,7 @@
+[Information]
+Version=1.0
+[Global]
+EmailHost=
+EmailPort=
+EmailFrom=
+EmailTo=
