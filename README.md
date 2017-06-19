@@ -4,6 +4,8 @@ A python script that allows for the start and stop of Amazon Web Services EC2 in
 
 The 'ec2sap-ctrl' script is built around a `'solution'` a solution can comprise on multiple EC2 instances, database's and SAP components and uses the 'sapcontrol' process via SSH remote commands for operations. An `'operation'` can be start/stop or status. 
 
+Begin a python script, it can easily be scheduled within cron to preform operations at set times. 
+
 ###### Directory Structure
 
 /opt/ec2sap-ctrl/cfg/
