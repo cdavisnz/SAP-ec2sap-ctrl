@@ -1,4 +1,5 @@
-## ec2sap-ctrl
+# ec2sap-ctrl
+> Start & stop control for SAP on Amazon Web Services
 ```
 Status: Being published, just getting the documentation sorted.
 ```
@@ -8,10 +9,11 @@ The 'ec2sap-ctrl' script is built around a `'solution'` a solution can comprise 
 
 Begin a python script, it can easily be scheduled within cron to preform operations at set times. 
 
-###### Directory Structure
+# Examples
+> Solution
 
-/opt/ec2sap-ctrl/cfg/
-/opt/ec2sap-ctrl/bin/
-/opt/ec2sap-ctrl/log/
-
-###### Configuration File
+# Documentation
+> Installation Guide
+###### 1. User Account:
+###### 2. Direcorty:
+###### 3. SSH Keys:
