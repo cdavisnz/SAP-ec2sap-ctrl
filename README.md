@@ -11,7 +11,7 @@ Begin a python script, it can easily be scheduled within cron to preform operati
 
 # Examples
 > Solution
-
+![Solution](https://github.com/cdavisnz/ec2sap-ctrl/blob/master/images/IMG_20170628.png)
 # Documentation
 > Installation Guide
 ###### 1. User Account:
